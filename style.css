@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+h2, p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: smaller;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+#hero {
+    background: #1F2937;
+    position: fixed;
+    height: 600px;
+    width: 500px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    /* since position is fixed margins don't work well
+    margin-left: auto;
+    margin-right: auto; */
+    left: 33%;
+}
+
+#heading-n-input {
+    background: #6943FF;
+    padding-top: 30px;
+}
+
+#input-el {
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin: 30px auto 20px auto;
+    font-size:xx-large;
+    padding: 0px 14px;
+    background-color: #6943FF;
+    border: 3px solid #B295FF;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+
+#btn-el {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+#unit-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 360px;  
+}
+
+.unit-container {
+    margin-bottom: 20px;
+    background-color: #273549;
+}
+
+#length-div {
+    margin-top: 20px;
+}
